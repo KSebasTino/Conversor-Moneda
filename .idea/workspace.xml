@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="557934bb-f090-455c-bf44-87f23f629d6f" name="Changes" comment="Inicio del proyecto Conversor Moneda">
-      <change afterPath="$PROJECT_DIR$/src/vista/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="557934bb-f090-455c-bf44-87f23f629d6f" name="Changes" comment="Inicio del proyecto Conversor Moneda" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +35,7 @@
     "Python tests.Python tests in test_conversor.py.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/interfaz"
+    "git-widget-placeholder": "develop"
   }
 }]]></component>
   <component name="RecentsManager">
