@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="557934bb-f090-455c-bf44-87f23f629d6f" name="Changes" comment="Inicio del proyecto Conversor Moneda">
-      <change afterPath="$PROJECT_DIR$/src/logica/conversor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_conversor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ConversorMoneda.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ConversorMoneda.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vista/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,9 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2oPAzmtyfon0cHYDQYOoUv0qn4k" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -41,7 +38,7 @@
     "Python tests.Python tests in test_conversor.py.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/conversion"
+    "git-widget-placeholder": "feature/interfaz"
   }
 }]]></component>
   <component name="RecentsManager">
