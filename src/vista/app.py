@@ -4,11 +4,7 @@ from src.logica.conversor import ConversorMoneda
 
 
 class ConversorApp:
-
-
     def __init__(self, root):
-
-
         self.root = root
         self.root.title("Conversor de Monedas")
         self.conversor = ConversorMoneda()
@@ -40,18 +36,16 @@ class ConversorApp:
         self.resultado_label = ttk.Label(self.frame, text="Resultado: ")
         self.resultado_label.grid(row=4, column=0, columnspan=2, sticky=tk.W)
 
+    def convertir(self):
+        try:
+            monto = float(self.monto_entry.get())
+            moneda_origen = self.origen_combo.get()
+            moneda_destino = self.destino_combo.get()
+            resultado = self.conversor.convertir(monto, moneda_origen, moneda_destino)
+            self.resultado_label.config(text=f"Resultado: {resultado:.2f} {moneda_destino}")
+        except ValueError as e:
+            messagebox.showerror("Error", str(e))
 
-def convertir(self):
-
-
-    try:
-        monto = float(self.monto_entry.get())
-        moneda_origen = self.origen_combo.get()
-        moneda_destino = self.destino_combo.get()
-        resultado = self.conversor.convertir(monto, moneda_origen, moneda_destino)
-        self.resultado_label.config(text=f"Resultado: {resultado:.2f} {moneda_destino}")
-    except ValueError as e:
-        messagebox.showerror("Error", str(e))
 
 if __name__ == "__main__":
     root = tk.Tk()

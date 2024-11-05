@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="557934bb-f090-455c-bf44-87f23f629d6f" name="Changes" comment="Inicio del proyecto Conversor Moneda" />
+    <list default="true" id="557934bb-f090-455c-bf44-87f23f629d6f" name="Changes" comment="Inicio del proyecto Conversor Moneda">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logica/conversor.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/logica/conversor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vista/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/vista/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_conversor.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_conversor.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,10 +37,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_conversor.TestConversorMoneda.test_conversion_usd_to_eur.executor": "Run",
     "Python tests.Python tests in test_conversor.py.executor": "Run",
+    "Python.app.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "develop"
+    "git-widget-placeholder": "develop",
+    "last_opened_file_path": "C:/Users/labf402/Downloads/ConversorMoneda"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -44,6 +52,28 @@
     </key>
   </component>
   <component name="RunManager" selected="Python tests.Python tests in test_conversor.py">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ConversorMoneda" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/vista" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/vista/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="ConversorMoneda" />
       <option name="ENV_FILES" value="" />
@@ -66,6 +96,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_conversor.TestConversorMoneda.test_conversion_usd_to_eur" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="ConversorMoneda" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_conversor.TestConversorMoneda.test_conversion_usd_to_eur&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests in test_conversor.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="ConversorMoneda" />
       <option name="ENV_FILES" value="" />
@@ -84,6 +129,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests in test_conversor.py" />
+        <item itemvalue="Python tests.Python tests for test_conversor.TestConversorMoneda.test_conversion_usd_to_eur" />
+        <item itemvalue="Python.app" />
       </list>
     </recent_temporary>
   </component>
